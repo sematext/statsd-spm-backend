@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/sematext/statsd-spm-backend/issues"
   },
-  "homepage": "https://github.com/sematext/statsd-spm-backend#readme"
+  "homepage": "https://github.com/sematext/statsd-spm-backend#readme",
+  "dependencies": {
+    "spm-metrics-js": "^1.0.7"
+  }
 }
