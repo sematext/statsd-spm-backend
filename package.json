@@ -1,0 +1,30 @@
+{
+  "name": "statsd-spm-backend",
+  "version": "1.0.0",
+  "description": "Statsd Backend for SPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sematext/statsd-spm-backend.git"
+  },
+  "keywords": [
+    "monitoring",
+    "statsd",
+    "backend",
+    "SPM",
+    "Performance",
+    "Monitoring",
+    "Sematext",
+    "Custom",
+    "Metrics"
+  ],
+  "author": "Sematext Group Inc.",
+  "license": "\tApache-2.0",
+  "bugs": {
+    "url": "https://github.com/sematext/statsd-spm-backend/issues"
+  },
+  "homepage": "https://github.com/sematext/statsd-spm-backend#readme"
+}
