@@ -15,9 +15,13 @@ npm install statsd-spm-backend --save
 2. [Create an SPM App](https://apps.sematext.com/spm-reports/registerApplication.do) to obtain the SPM Application Token.
 
 # Configuration
+Minimum Confg.js in statsd directory: 
 ```
-spmToken: "your_spm_app_token"
-backends: ["statsd-spm-backend"]
+{
+ port: 8125, // default statsd port
+ spmToken: "your_spm_app_token", 
+ backends: ["statsd-spm-backend"]
+}
 ```
 
 How to enable
