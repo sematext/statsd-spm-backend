@@ -28,9 +28,9 @@ function SpmBackend (startupTime, config, emitter) {
 }
 
 SpmBackend.prototype.flush = function (timestamp, metrics) {
-  console.log('Flushing stats at ', new Date(timestamp * 1000).toString())
+  // console.log('Flushing stats at ', new Date(timestamp * 1000).toString())
   var spmCm = this.spmCm
-  console.log(JSON.stringify(metrics.sets))
+  // console.log(JSON.stringify(metrics.sets))
   var sets = getSetsSize(metrics.sets)
   var key = null
   for (key in sets) {
@@ -59,8 +59,9 @@ SpmBackend.prototype.flush = function (timestamp, metrics) {
     }
   }
   if (this.config.debug) {
-    console.log(sets)
-    console.log(JSON.stringify(metrics))
+    console.log('Flushing stats at ', new Date(timestamp * 1000).toString())
+    console.log('Sets: ' + JSON.stringify(sets))
+    console.log('Metrics: ' + JSON.stringify(metrics))
   }
 }
 
