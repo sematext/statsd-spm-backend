@@ -36,6 +36,9 @@ backends: ["statsd-spm-backend"]
 echo "foo:1|c" | nc -u -w0 127.0.0.1 8125
 ```
 
+After 30 seconds (depending on flush interval), the metrics should be displayed in SPM Custom Metrics section: 
+![](https://raw.githubusercontent.com/sematext/statsd-spm-backend/master/statsd-test.png)
+SPM provides charts, anomaly detection, alerts and dashboards for custom metrics. 
 
 
 # Support 
