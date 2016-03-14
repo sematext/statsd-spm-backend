@@ -21,7 +21,7 @@ backends: ["statsd-spm-backend"]
 ```
 
 How to enable
-Add statsd-anodot-backend to your list of statsd backends:
+Add statsd-spm-backend to your list of statsd backends:
 ```
 backends: ["statsd-spm-backend"]
 ```
